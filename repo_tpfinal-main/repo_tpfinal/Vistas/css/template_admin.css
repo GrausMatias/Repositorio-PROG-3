@@ -1,0 +1,323 @@
+﻿body {
+    background-color: rgb(246, 236, 236);
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: "logo header iconos" "logo nav iconos" "content content content" "footer footer footer";
+    grid-template-columns: 1.5fr 4fr 1.5fr;
+    grid-template-rows: 60px 60px 1fr 150px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    background-color: rgb(158, 65, 73);
+    grid-area: logo;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.header {
+    background-color: rgb(158, 65, 73);
+    grid-area: header;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.iconos {
+    background-color: rgb(158, 65, 73);
+    grid-area: iconos;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.navbar {
+    background-color: rgb(158, 65, 73);
+    grid-area: nav;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.content {
+    grid-area: content;
+    position: unset;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: rgb(177, 63, 72);
+    grid-area: footer;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.LogoImagen {
+    width: 60%;
+    height: 30%
+}
+
+input.bus {
+    padding: 9px 10px 9px 10px;
+    background-color: rgba(233, 142, 142, 0.466);
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.609);
+    width: 45%;
+    padding: 0.6rem;
+    text-align: center;
+    transition: 0.2s;
+    font-size: 18px;
+}
+
+    input.bus:hover {
+        width: 50%;
+        background-color: rgba(231, 238, 228, 0.294);
+        border-color: rgb(0, 0, 0);
+        color: rgb(3, 3, 3);
+        box-shadow: 0 0 5px;
+    }
+
+::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.nav {
+    display: inline-flex;
+}
+
+.nav li {
+    padding-left: 5px;
+}
+
+    .nav li a {
+        color: rgb(238, 216, 216);
+        text-decoration: none;
+        background-color: rgba(82, 28, 28, 0.959);
+        padding: 8px 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: block;
+        font-size: 22px;
+        text-align: initial;
+        border-radius: 20px 20px;
+    }
+
+    .nav .name {
+        padding-right: 0.5rem;
+        height: 78px;
+}
+
+        .nav .name:hover {
+            color: black;
+        }
+
+    .nav ul li a:hover {
+        background-color: rgb(241, 194, 197);
+        color: rgb(0, 0, 0);
+    }
+
+    .nav li ul {
+        display: none;
+        position: absolute;
+        margin: 0;
+        padding-left: 0;
+        min-width: 140px
+    }
+
+        .nav li ul li {
+            position: relative;
+        }
+
+            .nav li ul li ul li {
+                position: relative;
+                right: -130px;
+                top: -40px
+            }
+
+    .nav li:hover > ul {
+        display: block;
+    }
+
+.iconos .fa-sign-out-alt {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: rgba(82, 28, 28, 0.959);
+}
+
+.iconos .user {
+    font-size: 1.6rem;
+    margin-right: 1.5rem;
+    color: rgba(82, 28, 28, 0.959);
+}
+
+.name {
+    text-align: initial;
+}
+
+/*FOOTER*/
+.contactenos {
+    color: rgb(221, 165, 169);
+    text-align: left;
+}
+.redes i {
+    list-style: none;
+    justify-content: left;
+    width: 25%;
+    color: rgba(82, 28, 28, 0.959);
+    padding-bottom: 8px;
+}
+
+.tamIcoRed {
+    font-size: 1.2rem
+}
+
+footer h2 {
+    margin-left: 48%;
+    width: 12%
+}
+
+ul li {
+    list-style: none;
+}
+
+/*PARA LOS GRIDVIEW*/
+.GridViewStyled {
+    width: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+    .GridViewStyled td a {
+        border-radius: 20px 20px 20px 20px;
+        background-color: #AE4750;
+        font-weight: bold;
+        text-decoration: none;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center
+    }
+
+.footerTable td {
+    border-radius: 0 0 20px 20px;
+}
+
+.footerTable td {
+    width: 30px;
+}
+
+.footerTable a {
+    border-radius: 20px 20px 20px 20px;
+    background-color: #AE4750;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center
+}
+
+.footerTable span {
+    border-radius: 20px 20px 20px 20px;
+    width: 100%;
+    display: block;
+    text-align: center
+}
+
+.headerTable th:first-of-type {
+    border-radius: 20px 0 0 0;
+}
+
+.headerTable th:last-of-type {
+    border-radius: 0 20px 0 0;
+}
+
+.btnASP {
+    outline: none;
+    height: 100%;
+    /*background-color: rgba(174, 64, 74, 0.84);*/
+    background-color: rgba(174, 64, 74, 0.84);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    font-size: 18px;
+}
+
+.txtASP {
+    outline: none;
+    padding: 0.3rem;
+    border-radius: 20px 20px;
+    background-color: rgba(235, 149, 149, 0.308);
+    /*background-color: rgba(226, 98, 98, 0.548);*/
+    border: solid 2px rgb(235, 149, 149);
+    height: 20px;
+}
+
+/*PARA LAS FLECHITAS DEL INPUT NUMBER*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/*PARA EL GRIDVIEW DEL REPORTE 3*/
+.GridViewStyledReporte3 {
+    width: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+    .GridViewStyledReporte3 td a {
+        font-size: 30px;
+        border-radius: 25px 25px 25px 25px;
+        font-weight: bold;
+        text-decoration: none;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center
+    }
+
+.aspNetDisabled {
+    outline: none;
+    padding: 0.3rem;
+    border-radius: 20px 20px;
+    background-color: rgba(235, 149, 149, 0.308);
+    /*background-color: rgba(226, 98, 98, 0.548);*/
+    border: solid 2px rgb(235, 149, 149);
+    height: 20px;
+}

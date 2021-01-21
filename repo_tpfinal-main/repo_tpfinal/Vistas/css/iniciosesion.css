@@ -1,0 +1,84 @@
+﻿.posicionamiento {
+    margin-bottom: 20px;
+    width: 30%;
+    float: left;
+    padding-top: 1rem;
+    background-color: #b4dee0c2;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 1rem;
+    border-radius: 10px;
+    font-family: arial,sans-serif;
+}
+
+.posicion1 {
+    padding-bottom: 2rem;
+}
+
+.posicion2 {
+    /*background-color: rgba(226, 98, 98, 0.548);*/
+    background-color: #79B9AE;  
+    padding-bottom: 2rem;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+}
+
+    .titulo hr {
+        width: 25%;
+        border-color: rgba(148, 39, 29, 0.952);
+    }
+
+.datos {
+    font-size: 17px;
+}
+
+.contrac {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.txt {
+    width: 70%;
+    padding: 0.3rem;
+    border-radius: 20px 20px;
+    background-color: rgba(235, 149, 149, 0.308);
+    border: solid 2px rgba(226, 98, 98, 0.116);
+}
+
+.inicio, .empezar {
+    width: 74%;
+    border-radius: 8px 8px;
+    padding: 0.5rem;
+    font-size: 18px;
+    border-radius: 20px 20px;
+    border: solid 2px;
+    color: white;
+    background-color: #16765696;
+    border-color: #167656;
+}
+
+.empezar {
+    color: rgba(148, 39, 29, 0.952);
+    font-weight: bolder;
+    width: 60%;
+    border: solid 2px rgba(148, 39, 29, 0.952);
+}
+
+.datosCrear {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.crear {
+    font-size: 14px;
+}
+
+.botonemp, .botonInicio .inicio {
+    text-align: center;
+}

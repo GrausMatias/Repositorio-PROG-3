@@ -1,0 +1,166 @@
+﻿
+.total {
+    font-family: arial,sans-serif;
+}
+
+.cajita {
+    width: 80%;
+    float: left;
+    padding-bottom: 3%;
+    background-color: rgba(197, 93, 102, 0.404);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px 5px;
+}
+
+.tituloCarrito {
+    width: 100%;
+    font-size: 30px;
+    padding-left: 5%;
+    margin-top: 1.5rem;
+}
+
+.subtitulo hr {
+    width: 80%;
+    margin-top: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.detalleVenta img {
+    width: 13%;
+    margin-left: 10%;
+    float: left;
+    border-radius: 20px 20px;
+}
+
+.detalleVenta {
+    width: 100%;
+    float: left;
+}
+
+.detalles {
+    width: 60%;
+}
+
+    .detalles div label {
+        margin-left: 10%;
+    }
+
+.cantidad, .precio, .nombre {
+    padding-top: 1rem;
+    font-size: 20px;
+}
+
+.Eliminar {
+    text-align: end;
+    margin-right: 10%;
+}
+
+.estiloElim {
+    padding: 0.5rem;
+    background-color: rgba(250, 3, 24, 0.753);
+    color: white;
+    border-radius: 5px 5px;
+}
+
+.vaciar {
+    width: 66%;
+    margin-left: 15%;
+    margin-right: 19%;
+}
+
+    .vaciar button {
+        padding: 0.5rem;
+        border-radius: 5px 5px;
+        background-color: rgb(184, 6, 6);
+        color: white;
+        font-weight: bold;
+    }
+/*Detalle de la compra*/
+.Dcompra .tit {
+    text-align: center;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.Dcompra li {
+    text-align: start;
+    font-size: 17px;
+}
+
+.izquierda {
+    width: 40%;
+    float: left;
+}
+
+.derecha {
+    width: 40%;
+    float: right;
+    text-align: end;
+}
+
+.datImporte {
+    width: 100%;
+    margin-bottom: 1rem;
+    float: left;
+    margin-top: 1rem;
+}
+
+.Total {
+    margin-top: 20px;
+    float: left;
+    margin-left: 40%;
+    padding-right: 3%;
+    background-color: rgba(197, 93, 102, 0.404);
+    border-radius: 30px 30px;
+}
+
+.finaliza {
+    margin: 1rem;
+}
+
+    .finaliza button {
+        padding: 0.5rem;
+        color: white;
+        background-color: rgb(128, 23, 4);
+        border-radius: 20px 20px;
+    }
+
+:root {
+    --gv-border-radius: 7px;
+}
+
+.rcgvTD {
+    border-radius: var(--gv-border-radius);
+    border-width: 0 !important;
+    background-color: #11999e;
+    height:150px;
+}
+
+/*    .rcgvTD td {
+        background-color: #11999e;
+        border-color: White;
+        border-style: solid;
+        border-bottom-width: 100px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+        border-top-width: 0px;
+    }*/
+
+    .rcgvTD td:first-child {
+        border-bottom-left-radius: var(--gv-border-radius);
+        border-top-left-radius: var(--gv-border-radius);
+    }
+
+    .rcgvTD td:last-child {
+        border-top-right-radius: var(--gv-border-radius);
+        border-bottom-right-radius: var(--gv-border-radius);
+    }
+
+.rowAlterna {
+    background-color: rgba(197, 93, 102, 0);
+}

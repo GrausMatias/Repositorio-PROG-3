@@ -1,0 +1,102 @@
+﻿/*carru*/
+ul li {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+.slider ul {
+    padding: 0;
+    display: flex;
+    width: 200%;
+    animation: cambio 5s infinite;
+    animation-direction: alternate;
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+    .slider li {
+        list-style: none;
+        width: 100%;
+    }
+
+    .slider img {
+        width: 80%;
+    }
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+
+    40% {
+        margin-left: 0;
+    }
+
+    60% {
+        margin-left: -100%;
+    }
+
+    100% {
+        margin-left: -100%;
+    }
+}
+/*Productos*/
+.productos {
+    text-align: center;
+}
+
+    .productos .celu, .moni, .tablet, .compu, .tele {
+        border-radius: 30%;
+        display: inline-flex;
+        width: 20%;
+        height: 300px;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        transform: scale(1);
+        text-decoration: none;
+        text-align: center;
+    }
+
+.celu {
+    background: url(/Categorias/celular.png) no-repeat center;
+    background-size: cover;
+}
+
+.moni {
+    background: url(/Categorias/monitor.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.tablet {
+    background: url(/Categorias/tablet.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.compu {
+    background: url(/Categorias/pantalla.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.tele {
+    background: url(/Categorias/televisor.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.productos a:hover {
+    transition: all 0.1s ease-out;
+    transform: scale(1.2);
+}
+
+.lblCelulares, .lblMoni, .lblTablet, .lblTele, .lblCompu {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    padding: 4%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.726);
+}

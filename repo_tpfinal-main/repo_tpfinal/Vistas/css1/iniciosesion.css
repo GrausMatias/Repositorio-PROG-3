@@ -1,0 +1,82 @@
+﻿.posicionamiento {
+    width: 30%;
+    float: left;
+    padding-top: 1rem;
+    background-color: rgba(197, 93, 102, 0.404);
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 1rem;
+    border-radius: 10px;
+    font-family: arial,sans-serif;
+}
+
+.posicion1 {
+    padding-bottom: 2rem;
+}
+
+.posicion2 {
+    background-color: rgba(226, 98, 98, 0.548);
+    padding-bottom: 2rem;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+}
+
+    .titulo hr {
+        width: 25%;
+        border-color: rgba(148, 39, 29, 0.952);
+    }
+
+.datos {
+    margin-left: 20%;
+    font-size: 17px;
+}
+
+.contrac {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.txt {
+    width: 70%;
+    padding: 0.3rem;
+    border-radius: 20px 20px;
+    background-color: rgba(235, 149, 149, 0.308);
+    border: solid 2px rgba(226, 98, 98, 0.116);
+}
+
+.inicio, .empezar {
+    width: 74%;
+    border-radius: 8px 8px;
+    padding: 0.5rem;
+    font-size: 18px;
+    border-radius: 20px 20px;
+    color: rgb(149, 7, 7);
+    background-color: rgba(235, 113, 113, 0.507);
+    border: solid 1px rgba(226, 98, 98, 0.116);
+}
+
+.empezar {
+    color: rgba(148, 39, 29, 0.952);
+    font-weight: bolder;
+    width: 60%;
+    border: solid 2px rgba(148, 39, 29, 0.952);
+}
+
+.datosCrear {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.crear {
+    font-size: 14px;
+}
+
+.botonemp, .botonInicio .inicio {
+    text-align: center;
+}

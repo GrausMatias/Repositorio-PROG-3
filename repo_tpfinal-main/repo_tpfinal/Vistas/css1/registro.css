@@ -1,0 +1,82 @@
+﻿
+/*Cuerpo*/
+.posicionamiento {
+    border-bottom-left-radius: 3px;
+    margin-left: 10%;
+    float: left;
+    background-color: rgba(197, 93, 102, 0.404);
+    padding-bottom: 3%;
+    padding-top: 1%;
+    width: 80%;
+    margin-top: 2%;
+    font-family: arial,sans-serif;
+    border-radius: 5px 5px;
+}
+
+.cont {
+    color: rgb(221, 165, 169);
+}
+
+.titulo {
+    padding-left: 5%
+}
+
+hr {
+    width: 80%;
+    text-align: left;
+}
+
+#formulario .posicion {
+    margin-left: 5%;
+    margin-right: 5%
+}
+
+.datos {
+    float: left;
+    width: 48%
+}
+
+.tituloDatos {
+    margin-top: 5%;
+}
+
+.txtDatos {
+    width: 50%;
+    float: left
+}
+
+.lblCampo {
+    width: 40%;
+    float: left;
+    font-size: 17px;
+}
+
+.datAcceso {
+    float: right;
+    width: 50%
+}
+
+.datDivision {
+    padding-top: 7%
+}
+
+.botonRegistro {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.registrar {
+    width: 30%;
+    margin-left: 16%;
+    padding: 0.5rem;
+    background-color: rgba(184, 39, 51, 0.753);
+    color: white;
+    border-radius: 5px 5px;
+}
+
+.txt {
+    border-radius: 5px 5px;
+    width: 70%;
+    padding: 0.2rem;
+}

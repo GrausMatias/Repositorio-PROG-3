@@ -1,0 +1,133 @@
+﻿body {
+    background: rgb(246, 236, 236);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    align-content: center;
+    height: 160px;
+    float: left;
+    background-color: rgb(158, 65, 73);
+    margin-bottom: 0.5%;
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+}
+
+.EspacioLogo {
+    width: 25%;
+    height: 145px;
+    float: left;
+}
+
+.Logo {
+    width: 65%;
+    margin-left: 3rem;
+    margin-top: 11%;
+}
+
+.EspacioBuscador {
+    width: 60%;
+    height: 50px;
+    padding-top: 2%;
+    float: left;
+    text-align: center;
+}
+
+input.bus {
+    padding: 9px 10px 9px 10px;
+    background-color: rgba(233, 142, 142, 0.466);
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.609);
+    width: 45%;
+    padding: 0.6rem;
+    text-align: center;
+    transition: 0.2s;
+    font-size: 18px;
+}
+
+    input.bus:hover {
+        width: 50%;
+        background-color: rgba(231, 238, 228, 0.294);
+        border-color: rgb(0, 0, 0);
+        color: rgb(3, 3, 3);
+        box-shadow: 0 0 5px;
+    }
+
+::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.EspacioBarraNavegacion {
+    float: left;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    padding: 0;
+}
+
+    .nav li a {
+        color: rgb(238, 216, 216);
+        text-decoration: none;
+        background-color: rgba(82, 28, 28, 0.959);
+        padding: 8px 15px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        display: block;
+        font-size: 22px;
+        text-align: center;
+        border-radius: 20px 20px;
+    }
+
+    .nav .name {
+        padding-right: 0.5rem;
+    }
+
+        .nav .name:hover {
+            color: black;
+        }
+
+    .nav ul li a:hover {
+        background-color: rgb(241, 194, 197);
+        color: rgb(0, 0, 0);
+    }
+
+    .nav > li {
+        float: left;
+    }
+
+    .nav li ul {
+        display: none;
+        position: absolute;
+        margin: 0;
+        padding-left: 0;
+    }
+
+    .nav li:hover > ul {
+        display: block;
+    }
+
+.EspacioAtajos {
+    float: right;
+    margin-right: 3rem;
+    padding-top: 4.5%;
+}
+
+    .EspacioAtajos .cart {
+        font-size: 1.6rem;
+        text-decoration: none;
+        color: rgba(82, 28, 28, 0.959);
+    }
+
+    .EspacioAtajos .user {
+        font-size: 1.6rem;
+        margin-right: 1.5rem;
+        color: rgba(82, 28, 28, 0.959);
+    }

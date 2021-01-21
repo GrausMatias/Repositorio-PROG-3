@@ -1,0 +1,63 @@
+﻿.PrimerosDatos {
+    display: inline-block;
+    padding: 0 0 0 25px
+}
+.PrimeraEntrada {
+    display: inline-block;
+    margin-left: 16px
+}
+.PrimerosDatos li {
+    padding-bottom: 20px;
+    text-align: left;
+}
+.PrimeraEntrada li {
+    padding-bottom: 10px
+}
+.SegundosDatos {
+    display: inline-block;
+}
+    .SegundosDatos li {
+        padding-bottom: 20px;
+        text-align: left
+    }
+
+.SegundaEntrada {
+    display: inline-block;
+    margin-right: 10px
+}
+    .SegundaEntrada li {
+        padding-bottom: 10px
+    }
+.input {
+    background-color: #11999e;
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 20px 20px;
+    border: solid 2px rgba(226, 98, 98, 0.116)
+}
+.btnGuardar {
+    width: 30%;
+    border-radius: 8px 8px;
+    padding: 0.5rem;
+    font-size: 18px;
+    border-radius: 20px 20px;
+    color: #ffffff;
+    border: solid 1px #167656;
+    background-color: #0d6b6f
+}
+.BloqueDatos {
+    background-color: #b4dee0c2;
+    width: 60%;
+    display: inline-block;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-top: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1rem;
+}
+hr {
+    width: 80%;
+    text-align: left;
+}

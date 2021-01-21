@@ -1,0 +1,33 @@
+﻿.container {
+    width: 80%;
+    float: left;
+    border-radius: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.usuario {
+    width: 20%;
+    background-color: thistle;
+    padding-top: 0rem;
+    padding-bottom: 0.2rem;
+    float: left;
+    padding-right: 0.1rem;
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 2%;
+}
+
+.uno {
+    float: left;
+    width: 40%;
+}
+
+.uno1 {
+    float: left;
+    width: 60%;
+}
+
+ul {
+    padding-left: 1rem;
+}

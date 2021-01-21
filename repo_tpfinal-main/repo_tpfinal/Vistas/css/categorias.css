@@ -1,0 +1,126 @@
+﻿.filtros {
+    width: 15%;
+    padding: 0;
+    height: 40rem;
+    float: left;
+    padding-top: 1rem;
+}
+
+.espacio {
+    padding: 1rem;
+}
+
+.productosCategorias {
+    text-align: center;
+    width: 80%;
+    float: right;
+    padding-top: 2rem;
+    margin-right: 5%;
+}
+
+    .productosCategorias .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8 {
+        border-radius: 30%;
+        display: inline-flex;
+        width: 200px;
+        height: 220px;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        text-decoration: none;
+        text-align: center;
+    }
+
+.p1 {
+    background: url(/Categorias/celular.png) no-repeat center;
+    background-size: cover;
+}
+
+#LblNoPro {
+    FONT-SIZE: 30px;
+    DISPLAY: inline-flex;
+    MARGIN-TOP: 10%;
+    MARGIN-RIGHT: 15%;
+}
+.p2 {
+    background: url(/Categorias/celular.png) no-repeat center;
+    background-size: cover;
+}
+
+.p3 {
+    background: url(/Categorias/celular.png) no-repeat center;
+    background-size: cover;
+}
+
+.p4 {
+    background: url(/Categorias/celular.png) no-repeat center;
+    background-size: cover;
+}
+
+.p5 {
+    background: url(/Categorias/celular.png) no-repeat center;
+    background-size: cover;
+}
+
+.p6 {
+    background: url(/Categorias/celular.png) no-repeat center;
+    background-size: cover;
+}
+
+.p7 {
+    background: url(/Categorias/celular.png) no-repeat center;
+    background-size: cover;
+}
+
+.p8 {
+    background: url(/Categorias/celular.png) no-repeat center;
+    background-size: cover;
+}
+
+.productosCategorias a:hover {
+    transition: all 0.1s ease-out;
+    transform: scale(1.2);
+}
+
+.lblp1, .lblp2, .lblp3, .lblp4, .lblp5, .lblp6, .lblp7, .lblp8 {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    padding: 4%;
+    width: 100%;
+    margin-top: 20%;
+    background-color: rgba(255, 255, 255, 0.726);
+}
+
+.minimo, .maximo {
+    width: 50%;
+}
+@media only screen and (min-width : 225px) and (max-width : 625px) {
+    .productosCategorias {
+        width: 45%;
+        margin-right: 0px
+    }
+}
+@media only screen and (min-width : 625px) and (max-width : 825px) {
+    .productosCategorias {
+        width: 60%;
+        margin-right: 0px
+    }
+}
+@media only screen and (min-width : 825px) and (max-width : 1000px) { 
+    .productosCategorias{
+        width:70%;
+        margin-right:0px
+    }
+}
+@media only screen and (min-width : 1000px) and (max-width : 1250px) {
+    .productosCategorias {
+        width: 75%;
+        margin-right: 0px
+    }
+}
+@media only screen and (min-width : 1250px) and (max-width : 1690px) {
+    .productosCategorias {
+        width: 80%;
+        margin-right: 0px
+    }
+}
